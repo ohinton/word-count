@@ -10,5 +10,7 @@ describe('the counter path', {:type => :feature}) do
     fill_in('word_to_count', :with => 'cats')
     click_button('Submit')
     expect(page).to have_content(3)
+    expect(page).to have_content(7)
+    expect(page).to have_content(32)
   end
 end

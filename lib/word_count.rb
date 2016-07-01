@@ -23,3 +23,14 @@ class String
     number_of_words
   end
 end
+
+class String
+  define_method(:char_counter) do
+    number_of_chars = 0
+    chars = self.split("")
+    chars.each do |char|
+      number_of_chars += 1
+    end
+    number_of_chars
+  end
+end

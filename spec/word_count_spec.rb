@@ -21,3 +21,9 @@ describe('String#word_counter') do
     expect(("I love cats!").word_counter()).to eq(3)
   end
 end
+
+describe('String#char_counter') do
+  it("returns how many characters are in a given string") do
+    expect(("I love cats!").char_counter()).to eq(12)
+  end
+end
