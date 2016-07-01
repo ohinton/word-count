@@ -27,3 +27,15 @@ describe('String#char_counter') do
     expect(("I love cats!").char_counter()).to eq(12)
   end
 end
+
+describe('String#vowel_counter') do
+  it("returns how many vowels are in a given string") do
+    expect(("I love cats!").vowel_counter()).to eq(4)
+  end
+end
+
+describe('String#consonant_counter') do
+  it("returns how many vowels are in a given string") do
+    expect(("I love cats!").consonant_counter()).to eq(5)
+  end
+end

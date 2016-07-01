@@ -14,5 +14,7 @@ get('/result') do
   @result = params.fetch('sentence').counter(@word_to_count)
   @total_word_count = @sentence.word_counter()
   @char_count = @sentence.char_counter()
+  @vowel_count = @sentence.vowel_counter()
+  @consonant_count = @sentence.consonant_counter()
   erb(:result)
 end
