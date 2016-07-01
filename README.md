@@ -1,30 +1,30 @@
-# _Ruby Week 1 Independent Project_
+# Ruby Week 1 Independent Project
 
-#### _By: Olivia Hinton | Date: July 1, 2016_
+#### By: Olivia Hinton | Date: July 1, 2016
 
 ## Description
 
-_Need to know how many times a certain word appears in a block of text? This website will tell you!_
+Need to know how many times a certain word appears in a block of text? This website will tell you!
 
 ## Setup/Installation Requirements
 
-* _Clone this repository_
-* _Install gems by running command $ bundle in the terminal_
-* _Launch Sinatra by running command $ ruby app.rb in the terminal_
-* _Launch site by visiting localhost:4567 in browser_
+* Clone this repository
+* Install gems by running command $ bundle in the terminal
+* Launch Sinatra by running command $ ruby app.rb in the terminal
+* Launch site by visiting localhost:4567 in browser
 
 ## Links
 
-* _GitHub Pages:_
-* _Heroku:_
+* GitHub Pages: http://ohinton.github.io/word_count
+* Heroku:
 
-## Technologies Used
+## Tech Used
 
-* _Ruby_
-* _Sinatra_
-* _HTML_
-* _CSS_
-* _Bootstrap_
+* Ruby
+* Sinatra
+* HTML
+* CSS
+* Bootstrap
 
 ### License
 

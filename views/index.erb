@@ -1,12 +1,10 @@
-<h1>Word Counter!</h1>
 <form action='/result' method='get'>
   <div class="form-group">
-    <label for="sentence">Your Sentence</label>
-    <input required id="sentence" name="sentence" class="form-control" type="text">
-    <hr>
-    <h2>Now enter in a word to count!</h2>
-    <label for="word_to_count">Word</label>
+    <label>Put your text here:</label>
+    <textarea rows="4" required id="sentence" name="sentence" class="form-control" type="text"></textarea>
+    <br>
+    <label>What word would you like me to count?</label>
     <input required id="word_to_count" name="word_to_count" class="form-control" type="text">
   </div>
-  <button type="submit" class="btn">Submit!</button>
+  <button type="submit" class="btn btn-success">Submit</button>
 </form>
