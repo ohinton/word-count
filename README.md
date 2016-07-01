@@ -1,6 +1,6 @@
 # _Ruby Week 1 Independent Project_
 
-#### _By Olivia Hinton | Date: July 1, 2016_
+#### _By: Olivia Hinton | Date: July 1, 2016_
 
 ## Description
 
@@ -9,6 +9,14 @@ _Need to know how many times a certain word appears in a block of text? This web
 ## Setup/Installation Requirements
 
 * _Clone this repository_
+* _Install gems by running command $ bundle in the terminal_
+* _Launch Sinatra by running command $ ruby app.rb in the terminal_
+* _Launch site by visiting localhost:4567 in browser_
+
+## Links
+
+* _GitHub Pages:_
+* _Heroku:_
 
 ## Technologies Used
 
