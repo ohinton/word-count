@@ -2,7 +2,7 @@ require('rspec')
 require('word_count')
 
 describe('String#counter') do
-  it("returns how many times a word appears in a given sentence") do
+  it("returns how many times a certain word appears in a given string") do
     expect(("I love cats!").counter("love")).to eq(1)
   end
   it("handles mixed cased words") do
@@ -23,7 +23,7 @@ describe('String#word_counter') do
 end
 
 describe('String#char_counter') do
-  it("returns how many characters are in a given string") do
+  it("returns how many characters are in a given string, including spaces and punctuation") do
     expect(("I love cats!").char_counter()).to eq(12)
   end
 end
@@ -35,7 +35,7 @@ describe('String#vowel_counter') do
 end
 
 describe('String#consonant_counter') do
-  it("returns how many vowels are in a given string") do
+  it("returns how many consonants are in a given string") do
     expect(("I love cats!").consonant_counter()).to eq(5)
   end
 end
