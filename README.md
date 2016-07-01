@@ -15,7 +15,7 @@ Need to know how many times a certain word appears in a block of text? This webs
 
 ## Links
 
-* GitHub Pages: http://ohinton.github.io/word_count
+* GitHub Pages: http://ohinton.github.io/word-count
 * Heroku: https://boxing-toonie-67909.herokuapp.com/
 
 ## Tech Used
