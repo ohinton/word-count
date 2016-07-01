@@ -1,4 +1,4 @@
-# Ruby Week 1 Independent Project
+# Word Counter
 
 #### By: Olivia Hinton | Date: July 1, 2016
 
