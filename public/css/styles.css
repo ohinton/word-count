@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  text-align: left;
   font-weight: bolder;
 }
 
@@ -23,11 +23,10 @@ h3 {
 }
 
 .subtext {
-  text-align: center;
+  text-align: left;
   font-style: italic;
 }
 
-#result {
-  text-align: center;
-  font-size: 100px;
+td {
+  font-size: 30px;
 }

@@ -1,9 +1,15 @@
-<h2>Number of times "<%= @word_to_count %>" appears in your text:</h2>
-<h2 id="result"><%= @result %></h2>
-<h3>Other stats!</h3>
-<p class="subtext">Total word count: <%=@total_word_count%></p>
-<hr>
-<h3>Your original text:</h3>
-<p class="subtext"><%= @sentence %></p>
-<hr>
-<a href="/"><button type="button" class="btn btn-lg btn-success">Back</button></a>
+<div class = "jumbotron">
+  <h2>Your results for:</h2>
+  <p class="subtext">"<%= @sentence %>"</p>
+  <table class="table table-hover table-responsive table-condensed">
+    <tr>
+      <td>Number of [<%= @word_to_count %>]'s in your text:</td>
+      <td><%= @result %></td>
+    </tr>
+    <tr>
+      <td>Total word count:</td>
+      <td><%=@total_word_count%></td>
+    </tr>
+  </table>
+  <a href="/"><button type="button" class="btn btn-lg btn-success">Back</button></a>
+</div>
