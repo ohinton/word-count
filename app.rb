@@ -12,5 +12,6 @@ get('/result') do
   @sentence = params.fetch('sentence')
   @word_to_count = params.fetch('word_to_count')
   @result = params.fetch('sentence').counter(@word_to_count)
+  @total_word_count = @sentence.word_counter()
   erb(:result)
 end

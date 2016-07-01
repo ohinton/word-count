@@ -17,17 +17,17 @@ h2 {
   text-align: center;
 }
 
-#result {
-  text-align: center;
-  font-size: 100px;
-}
-
-#original-text-header {
+h3 {
   text-align: center;
   font-weight: bold;
 }
 
-#original-text {
+.subtext {
   text-align: center;
   font-style: italic;
+}
+
+#result {
+  text-align: center;
+  font-size: 100px;
 }

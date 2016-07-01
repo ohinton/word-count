@@ -15,3 +15,9 @@ describe('String#counter') do
     expect(("I have 5 cats!").counter("5")).to eq(1)
   end
 end
+
+describe('String#word_counter') do
+  it("returns how many words are in a given string") do
+    expect(("I love cats!").word_counter()).to eq(3)
+  end
+end

@@ -12,3 +12,14 @@ class String
     result
   end
 end
+
+class String
+  define_method(:word_counter) do
+    number_of_words = 0
+    words = self.gsub(/\W/, ' ').split()
+    words.each do |word|
+      number_of_words += 1
+    end
+    number_of_words
+  end
+end
